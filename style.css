@@ -1,0 +1,28 @@
+
+  .img{
+    position: relative;
+    background-image: url("logo2.png");                                                               
+    height: 100vh;
+    background-position: 50% 0;
+    background-size: 400PX;
+    background-repeat: no-repeat;
+}
+.img-cover{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(188, 224, 153, 0.562);                                                                 
+   z-index:1;
+}
+.img .content{
+    font-family: 'Besley', serif;
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:5rem;
+     color: rgb(1, 70, 21);
+     z-index: 2;
+     text-align: center;
+     line-height: 40%;
+}
